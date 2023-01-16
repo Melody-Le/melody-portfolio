@@ -9,7 +9,7 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
-              <h2 className="text-2xl font-bold">MELODY LE</h2>
+              <h2 className="text-2xl font-bold">Portfolio </h2>
             </a>
             <div className="md:hidden">
               <button
@@ -60,7 +60,7 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">About</a>
+                <a href="#">Home</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
                 <a href="#">Skills</a>
