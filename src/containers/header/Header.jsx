@@ -3,8 +3,8 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <div className="gpt3__header section__padding" id="home">
-      Header
+    <div className="py-3 text-center">
+      <h2 className="font-extrabold text-4xl">Navbars Taiwind</h2>
     </div>
   );
 };

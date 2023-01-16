@@ -6,7 +6,7 @@ import { Footer, Header } from "./containers";
 function App() {
   return (
     <div className="App">
-      <div className="gradient__bg">
+      <div className="container">
         <Navbar />
         <Header />
       </div>
