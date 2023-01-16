@@ -8,7 +8,7 @@ export default function NavBar() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="#">
+            <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold">LOGO</h2>
             </a>
             <div className="md:hidden">
@@ -54,22 +54,19 @@ export default function NavBar() {
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
-            // className={` md:block md:pb-0 md:mt-0 top-30 right-0 w-[35vw] bg-red-600 p-10 fixed h-full ease-in-out duration-300 ${
-            //   navbar ? "translate-x-0 " : "translate-x-full"
-            // }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">Home</a>
+                <a href="javascript:void(0)">Home</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">Blog</a>
+                <a href="javascript:void(0)">Blog</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">About US</a>
+                <a href="javascript:void(0)">About US</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">Contact US</a>
+                <a href="javascript:void(0)">Contact US</a>
               </li>
             </ul>
           </div>
