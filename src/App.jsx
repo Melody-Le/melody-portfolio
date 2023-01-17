@@ -1,15 +1,16 @@
 import { useState } from "react";
 import "./App.css";
 import { Navbar } from "./components";
-import { Footer, Home, Skills } from "./containers";
+import { Footer, Home, Skills, TechProjects } from "./containers";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col first-letter h-screen">
       <Navbar />
       <Home />
       <Skills />
-      {/* <Footer /> */}
+      <TechProjects />
+      <Footer />
     </div>
   );
 }

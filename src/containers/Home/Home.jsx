@@ -9,10 +9,10 @@ function Home() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className=" flex items-center mt-5 z-index-30">
+    <div className=" flex items-center z-index-30 min-h-screen flex-grow">
       <div
         id="home"
-        className="container md:px-[10rem] mt-8 flex flex-wrap justify-around items-center bg-white-500"
+        className="container mt-8 flex flex-wrap justify-around items-center bg-white-500"
         // className="container mt-8 grid-cols-3   bg-white-500"
       >
         <Social />
@@ -21,7 +21,7 @@ function Home() {
           className="profile-animation transition duration-150 ease-in-out w-9 basis-1/2 md:basis-1/5 justify-self-start max-w-20 aspect-square md:shrink-0 bg-cover bg-no-repeat bg-center bg-profile"
         ></div>
         <div data-aos="fade-left" className="basis-full md:basis-2/3">
-          <h1 className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-5">
+          <h1 className="text-teal-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-5">
             Melody Le
           </h1>
           <h3 className="px-[55px] relative before:content-[''] before:absolute before:left-0 before:top-[1rem] before:w-[50px] before:h-[1px] before:bg-slate-600 text-lg font-thin">
@@ -35,10 +35,10 @@ function Home() {
             technology products.
           </p>
           <a
-            className="text-white bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-400 font-medium rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+            className="font-bold text-teal-900 hover:text-white bg-white-700 hover:bg-teal-800 outline-teal-800 outline-2 outline hover:outline-none rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
             href="https://drive.google.com/file/d/1dQ-JRzO2jCK_wkoTvX41OHMNxPFgViqp/view?usp=sharing"
           >
-            My Resume
+            View My Resume
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

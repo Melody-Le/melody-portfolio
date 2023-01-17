@@ -4,7 +4,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-white-900 shadow-md sticky top-0 left-0 z-50">
+    <nav className="w-full bg-white shadow-md sticky top-0 left-0 z-50">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-3 md:block">

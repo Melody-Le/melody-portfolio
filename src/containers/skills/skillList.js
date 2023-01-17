@@ -4,6 +4,7 @@ export const techSkills = [
   { skillName: "Javascript", img: "src/assets/JavaScript-logo.png" },
   { skillName: "JQuery", img: "src/assets/jquery.png" },
   { skillName: "Typescript", img: "src/assets/typescript.png" },
+  { skillName: "React", img: "src/assets/react.svg" },
   { skillName: "Boostrap", img: "src/assets/bootstrap.jpg" },
   { skillName: "MUI", img: "src/assets/MUI.png" },
   { skillName: "Tailwind", img: "src/assets/tailwind.png" },
