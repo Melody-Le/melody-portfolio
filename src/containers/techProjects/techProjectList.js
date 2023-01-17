@@ -16,17 +16,16 @@ export const techProjectList = [
     techStacks:
       "MongoDB | Express | NodeJS | EJS | Bootstrap | ImageKit.io | Figma ",
     description:
-      "aTom is Full-stack Freelancer app, allows people to view professional portfolios and find some great inspiration design for their dream home, Besides, they can post their job at aTom platform to find the right interior design for their own. On the other hand, designers can post their work/idea, to attract clients hiring them.",
+      "A Freelancer webapp, that user can view professional portfolios and find some great inspiration design for their dream home,post their jobs to find the right interior design for their own. On the other hand, designers can post their work/idea, to attract clients.",
   },
   {
     projectName: "HelloWorld",
     img: "src/assets/techProjects/HelloWorldGif.gif",
     demo: "https://hello-world-fe.netlify.app/",
     code: "https://github.com/will-j-c/react-hello-world",
-    techStacks:
-      "MongoDB | imageKit.io | Multer | NodeJS | ReactJS| React Router | MUI | SASS | JSON Web Token | GSAP | ZenHub | SendGrid API",
+    techStacks: "MongoDB | imageKit.io| Multer| NodeJS | ReactJS| MUI | Figma ",
     description:
-      "With a mindset of constantly exploring new ideas and technologies, my team ( group of 3 developers) decided to build a community for developers to publish their products, find contributors to make amazing things happen.",
+      "With a mindset of constantly exploring new ideas and technologies, we( group of 3 developers) decided to build a community for developers to publish their products, find contributors to make amazing things happen.",
   },
   {
     projectName: "Mikea",
@@ -34,7 +33,7 @@ export const techProjectList = [
     demo: "https://mikea.netlify.app/",
     code: "https://github.com/Melody-Le/Mikea-FE",
     techStacks:
-      "SQL - PostgreSQL | NodeJS | ReactJS| React Router | MUI | JSON Web Token | Typescript | Sequelize ORM ",
+      "PostgreSQL | NodeJS | ReactJS| MUI | JSON Web Token | Typescript | Figma",
     description:
       "Mikea is an e-commerce web shop, allows user view and buy furniture, add product into cart, checkout, and can trace purchase history. With a big love Ikea product, I used data from Ikea products for this website, seed and store data by sequelize ORM.",
   },

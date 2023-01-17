@@ -8,7 +8,7 @@ function Skills() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="skills" className="container flex-grow">
+    <div id="skills" className="container md:min-h-screen ">
       <h1 className="text-2xl md:text-4xl font-bold subpixel-antialiased pb-5">
         Skills
       </h1>

@@ -8,9 +8,12 @@ function TechProjects() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="tech-projects" className="container mb-5">
-      <h1 className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-5">
-        Projects
+    <div id="tech-projects" className="container mb-5 lg:min-h-screen mt-10">
+      <h1
+        data-aos="fade-up"
+        className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-5"
+      >
+        Software Engineering Projects
       </h1>
 
       <div className="grid grid-cols-1 gap-1 md:grid-cols-2 md:gap-3 lg:grid-cols-4">
@@ -27,14 +30,14 @@ function TechProjects() {
             >
               <img className="rounded-t-lg" src={item.img} alt="" />
             </a>
-            <div className="p-6">
+            <div className="p-3">
               <h5 className="text-gray-900 text-xl font-medium mb-2">
                 {item.projectName}
               </h5>
-              <p className=" text-base mb-4 font-thin text-slate-800">
+              <p className=" text-base mb-1 font-thin text-slate-800">
                 {item.techStacks}
               </p>
-              <p className="text-gray-700 text-base mb-6">{item.description}</p>
+              <p className="text-gray-700 text-base mb-8">{item.description}</p>
               <div className="flex flex-row gap-3 bottom-3 fixed">
                 <a
                   href={item.demo}
