@@ -8,8 +8,13 @@ export default function NavBar() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-3 md:block">
-            <a href="#">
-              <h2 className="text-2xl font-bold">Portfolio </h2>
+            <a href="#" className="flex space-x-1">
+              <img
+                src="./logo-portfolio-full.png"
+                alt="logo"
+                className="h-12"
+              />
+              {/* <h2 className="text-2xl font-bold">Portfolio </h2> */}
             </a>
             <div className="md:hidden">
               <button
