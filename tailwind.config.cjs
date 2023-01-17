@@ -6,12 +6,15 @@ module.exports = {
     extend: {
       container: {
         center: true,
-        padding: "2rem",
+        padding: "6rem",
       },
       colors: {
-        primary: colors.red,
+        primary: "#59C1BD",
         secondary: colors.yellow,
         neutral: colors.gray,
+      },
+      backgroundImage: {
+        profile: "url('src/assets/profile-photo.jpeg')",
       },
     },
   },
