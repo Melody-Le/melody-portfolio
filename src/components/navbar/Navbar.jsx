@@ -54,22 +54,22 @@ export default function NavBar() {
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
-            // className={` md:block md:pb-0 md:mt-0 top-30 right-0 w-[35vw] bg-red-600 p-10 fixed h-full ease-in-out duration-300 ${
-            //   navbar ? "translate-x-0 " : "translate-x-full"
-            // }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
                 <a href="#">Home</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">Skills</a>
+                <a href="#skills">Skills</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">Work</a>
+                <a href="#tech-projects">Projects</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#">Contact</a>
+                <a href="#design-projects">Experiences</a>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>

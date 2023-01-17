@@ -8,12 +8,15 @@ function Skills() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="skills" className="container md:min-h-screen ">
-      <h1 className="text-2xl md:text-4xl font-bold subpixel-antialiased pb-5">
+    <div id="skills" className="container mb-5 md:mt-10">
+      <h1
+        data-aos="fade-up"
+        className="text-2xl md:text-4xl font-bold subpixel-antialiased pb-5 text-center"
+      >
         Skills
       </h1>
 
-      <div className="grid grid-cols-3 gap-1 md:grid-cols-8 md:gap-3">
+      <div className="grid grid-cols-3 gap-1 md:grid-cols-5 lg:grid-cols-8 md:gap-3">
         {techSkills.map((item, index) => (
           <div
             key={index}

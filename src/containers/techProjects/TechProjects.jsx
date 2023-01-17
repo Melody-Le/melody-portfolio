@@ -8,20 +8,20 @@ function TechProjects() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="tech-projects" className="container mb-5 lg:min-h-screen mt-10">
+    <div id="tech-projects" className="container mb-5 md:mt-10 md:pt-8">
       <h1
         data-aos="fade-up"
-        className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-5"
+        className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-10 text-center"
       >
         Software Engineering Projects
       </h1>
 
-      <div className="grid grid-cols-1 gap-1 md:grid-cols-2 md:gap-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-2 md:gap-3 lg:grid-cols-4 ">
         {techProjectList.map((item, index) => (
           <div
             key={index}
             data-aos="fade-up"
-            className="rounded-lg shadow-lg bg-white max-w-sm"
+            className="rounded-lg shadow-lg bg-white max-w-sm mx-auto"
           >
             <a
               href={item.demo}
@@ -53,7 +53,7 @@ function TechProjects() {
                   data-mdb-ripple-color="light"
                   className="text-white bg-teal-700 hover:bg-teal-800  font-medium rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
                 >
-                  Code Github
+                  Code
                 </a>
               </div>
             </div>
