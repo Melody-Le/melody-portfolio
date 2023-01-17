@@ -2,7 +2,10 @@ import React from "react";
 
 function Social() {
   return (
-    <div className="flex-col h-full gap-11 space-y-5 justify-around items-end  basis-auto order-0">
+    <div
+      data-aos="fade-right"
+      className="flex-col h-full gap-11 space-y-5 justify-around items-end  basis-auto order-0"
+    >
       <a
         href="http://www.linkedin.com/in/melody-le"
         className="text-gray-500 hover:text-gray-900 dark:hover:text-white"

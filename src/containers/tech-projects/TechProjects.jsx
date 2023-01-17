@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { techSkills, designSkills } from "./skillList";
+import { techSkills, designSkills } from "./techProjects";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
