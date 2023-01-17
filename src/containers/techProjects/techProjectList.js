@@ -1,7 +1,7 @@
 export const techProjectList = [
   {
     projectName: "Spoon Town",
-    img: "src/assets/techProjects/SpoonTownGif.gif",
+    img: "./assets/techProjects/SpoonTownGif.gif",
     demo: "https://melody-le.github.io/spoon-town-app/filterPage.html",
     code: "https://github.com/Melody-Le/spoon-town-app",
     techStacks: "OOP | JS | HTML | CSS | Bootstrap| API | Figma ",
@@ -10,7 +10,7 @@ export const techProjectList = [
   },
   {
     projectName: "aTom",
-    img: "src/assets/techProjects/aTomGif.gif",
+    img: "./assets/techProjects/aTomGif.gif",
     demo: "https://atom-freelancer-app.onrender.com/idea-market",
     code: "https://github.com/Melody-Le/aTom",
     techStacks:
@@ -20,7 +20,7 @@ export const techProjectList = [
   },
   {
     projectName: "HelloWorld",
-    img: "src/assets/techProjects/HelloWorldGif.gif",
+    img: "./assets/techProjects/HelloWorldGif.gif",
     demo: "https://hello-world-fe.netlify.app/",
     code: "https://github.com/will-j-c/react-hello-world",
     techStacks: "MongoDB | imageKit.io| Multer| NodeJS | ReactJS| MUI | Figma ",
@@ -29,7 +29,7 @@ export const techProjectList = [
   },
   {
     projectName: "Mikea",
-    img: "src/assets/techProjects/MikeaGif.gif",
+    img: "./assets/techProjects/MikeaGif.gif",
     demo: "https://mikea.netlify.app/",
     code: "https://github.com/Melody-Le/Mikea-FE",
     techStacks:
