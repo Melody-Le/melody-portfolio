@@ -14,7 +14,7 @@ module.exports = {
         neutral: colors.gray,
       },
       backgroundImage: {
-        profile: "url('src/assets/profile-photo.jpeg')",
+        profile: "url('./src/assets/profile-photo.jpeg')",
       },
     },
   },
