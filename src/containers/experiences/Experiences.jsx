@@ -8,7 +8,10 @@ function Experiences() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="design-projects" className="container mb-5 md:mt-10">
+    <div
+      id="design-projects"
+      className="container px-3 md:px-8 lg:px-10 mb-5 md:mt-10"
+    >
       <h1
         data-aos="fade-up"
         className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-5 text-center"
@@ -26,7 +29,7 @@ function Experiences() {
       </div>
 
       <div data-aos="fade-up" className="overflow-hidden text-gray-700">
-        <div className="container px-0 mx-auto lg:pt-5">
+        <div className="container mx-auto">
           <DesignProjects />
         </div>
       </div>

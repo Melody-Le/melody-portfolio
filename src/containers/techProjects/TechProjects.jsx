@@ -8,7 +8,10 @@ function TechProjects() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="tech-projects" className="container mb-5 md:mt-10 md:pt-8">
+    <div
+      id="tech-projects"
+      className="container px-3 md:px-8 lg:px-10 mb-5 md:mt-10 md:pt-8"
+    >
       <h1
         data-aos="fade-up"
         className="text-peach-900 text-2xl md:text-4xl font-bold subpixel-antialiased pb-10 text-center"

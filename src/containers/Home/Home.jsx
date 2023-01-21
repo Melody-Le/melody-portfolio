@@ -12,7 +12,7 @@ function Home() {
     <div className=" flex items-center z-index-30 min-h-screen flex-grow">
       <div
         id="home"
-        className="container flex flex-wrap justify-around items-center bg-white-500"
+        className="container px-3 md:px-8 lg:px-10 flex flex-wrap justify-around items-center bg-white-500"
         // className="container mt-8 grid-cols-3   bg-white-500"
       >
         <Social />

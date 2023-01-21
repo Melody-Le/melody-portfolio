@@ -8,7 +8,7 @@ function Skills() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="skills" className="container mb-5 md:mt-10">
+    <div id="skills" className="container px-3 md:px-8 lg:px-10 mb-5 md:mt-10">
       <h1
         data-aos="fade-up"
         className="text-2xl md:text-4xl font-bold subpixel-antialiased pb-5 text-center"
