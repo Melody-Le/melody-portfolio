@@ -37,6 +37,14 @@ const Contact = () => {
             Get In Touch
           </a>
         </div>
+        <a
+          href="http://www.linkedin.com/in/melody-le"
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
+          className="text-white bg-teal-700 hover:bg-teal-800  font-medium rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+        >
+          Demo
+        </a>
       </div>
     </div>
   );
