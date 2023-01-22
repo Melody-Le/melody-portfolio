@@ -29,12 +29,14 @@ const Contact = () => {
           </span>
           , and connect with me!
         </p>
-        <a
-          href="http://www.linkedin.com/in/melody-le"
-          className="mb-5 font-bold text-teal-800 hover:text-white hover:bg-teal-800 outline-teal-800 outline-2 outline hover:outline-none rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
-        >
-          Get In Touch
-        </a>
+        <div className="mb-5">
+          <a
+            href="http://www.linkedin.com/in/melody-le"
+            className=" font-bold text-teal-800 hover:text-white hover:bg-teal-800 outline-teal-800 outline-2 outline hover:outline-none rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
+          >
+            Get In Touch
+          </a>
+        </div>
       </div>
     </div>
   );

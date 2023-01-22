@@ -10,7 +10,7 @@ function Home() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className=" flex items-center z-index-30 min-h-screen flex-grow">
+    <div className=" flex items-center z-index-30 min-h-[calc(100vh_-_72px)] flex-grow">
       <div
         id="home"
         className="container px-3 md:px-8 lg:px-10 flex flex-wrap justify-around items-center bg-white-500"
