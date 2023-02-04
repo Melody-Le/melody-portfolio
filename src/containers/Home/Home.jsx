@@ -30,11 +30,15 @@ function Home() {
             Software Engineering
           </h3>
           <p className="leading-relax pb-3">
-            Coming from an architecture and interior design background help me
-            build a good mindset of UX/UI design. With a strong sense of
-            responsibility toward with high demand quality products, I am eager
-            to utilize my tech skills and design skills to create impactful
-            technology products.
+            A software engineering with strong background in interior design
+            industry, that give me an extra advantage when dealing with visual
+            details, resulting in an almost pixel-perfect UI.
+            <br />
+            With a strong sense of responsibility toward high demand quality
+            products, I am eager to utilize my tech skills and desgn skills to
+            create impact technology products.
+            <br />I am looking forward to a challenging position as a software
+            engineer.
           </p>
           <a
             className="font-bold text-teal-900 hover:text-white bg-white-700 hover:bg-teal-800 outline-teal-800 outline-2 outline hover:outline-none rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
