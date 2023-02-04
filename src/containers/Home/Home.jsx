@@ -35,7 +35,7 @@ function Home() {
             details, resulting in an almost pixel-perfect UI.
             <br />
             With a strong sense of responsibility toward high demand quality
-            products, I am eager to utilize my tech skills and desgn skills to
+            products, I am eager to utilize my tech skills and design skills to
             create impact technology products.
             <br />I am looking forward to a challenging position as a software
             engineer.
