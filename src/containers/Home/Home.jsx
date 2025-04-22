@@ -27,18 +27,13 @@ function Home() {
             Melody Le
           </h1>
           <h3 className="px-[55px] relative before:content-[''] before:absolute before:left-0 before:top-[1rem] before:w-[50px] before:h-[1px] before:bg-slate-600 text-lg font-thin">
-            Software Engineering
+            UX Developer
           </h3>
           <p className="leading-relax pb-3">
-            A software engineering with strong background in interior design
-            industry, that give me an extra advantage when dealing with visual
-            details, resulting in an almost pixel-perfect UI.
+            A UX/UI Developer with a background in interior design, bringing a sharp eye for detail and a passion for pixel-perfect, user-friendly interfaces. 
             <br />
-            With a strong sense of responsibility toward high demand quality
-            products, I am eager to utilize my tech skills and design skills to
-            create impact technology products.
-            <br />I am looking forward to a challenging position as a software
-            engineer.
+            I blend design and frontend skills to build high-quality digital products, 
+            <br />and I’m seeking a challenging role to create impactful solutions.
           </p>
           <a
             className="font-bold text-teal-900 hover:text-white bg-white-700 hover:bg-teal-800 outline-teal-800 outline-2 outline hover:outline-none rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
