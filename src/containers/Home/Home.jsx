@@ -27,13 +27,11 @@ function Home() {
             Melody Le
           </h1>
           <h3 className="px-[55px] relative before:content-[''] before:absolute before:left-0 before:top-[1rem] before:w-[50px] before:h-[1px] before:bg-slate-600 text-lg font-thin">
-            UX Developer
+            UXUI Designer | Frontend Developer
           </h3>
-          <p className="leading-relax pb-3">
-            A UX/UI Developer with a background in interior design, bringing a sharp eye for detail and a passion for pixel-perfect, user-friendly interfaces. 
-            <br />
-            I blend design and frontend skills to build high-quality digital products, 
-            <br />and I’m seeking a challenging role to create impactful solutions.
+          <p className="leading-relax pb-3" style={{maxWidth: "600px" }}>
+          A UI/UX-focused Frontend Developer with a design background and strong eye for detail. Combines full stack development skills with 6+ years of architectural experience to create intuitive, high-quality web and mobile interfaces. 
+            <br />Committed to delivering excellent work with a strong sense of responsibility. 
           </p>
           <a
             className="font-bold text-teal-900 hover:text-white bg-white-700 hover:bg-teal-800 outline-teal-800 outline-2 outline hover:outline-none rounded-lg text-sm px-5 py-1.5 text-center inline-flex items-center dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800"
